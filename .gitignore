@@ -1,0 +1,20 @@
+# ROS build & setup folders
+build/
+devel/
+install/
+log/
+
+# Python compiled files
+__pycache__/
+*.pyc
+
+# C++ binaries
+*.o
+*.so
+
+# VS Code settings
+.vscode/
+
+# OS temporary files
+.DS_Store
+
