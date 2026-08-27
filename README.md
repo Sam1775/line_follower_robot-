@@ -1,4 +1,4 @@
-# Vacuum Bot — Line Follower 📷
+# Line Follower BOT
 
 Camera-based line following for the `vacuum_bot` differential-drive robot in ROS 2 + Gazebo. The robot watches the ground ahead of it, finds a black line, and steers to keep it centered.
 
