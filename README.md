@@ -2,8 +2,6 @@
 
 Camera-based line following for the `vacuum_bot` differential-drive robot in ROS 2 + Gazebo. The robot watches the ground ahead of it, finds a black line, and steers to keep it centered.
 
-> ⚠️ **Working copy is incomplete.** `line_follower_node.py` is missing from the uploaded project (along with `package.xml`, the launch file, and `config/bridge.yaml`), though it exists in the repo's Git history. Restore it with `git checkout HEAD -- .` in the project root before building — see the note at the bottom.
-
 ## How It Works
 
 `line_follower_node.py` subscribes to the robot's front camera and publishes steering commands, all in one callback:
